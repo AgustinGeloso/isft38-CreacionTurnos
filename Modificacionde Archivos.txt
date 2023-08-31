@@ -1,0 +1,26 @@
+Controladores creados
+- Horarios
+- inscripciones
+- Formulario
+- CancelarTurno
+
+Models creados o modificados
+- Carrera 
+- Cupo
+- FormularioAdmin
+- Incripcion 
+- Turno
+
+views
+Frontend
+- turnos / inscribirse.blade.php
+
+Backend
+- admin form / cancelarturnos.blade.php
+- admin form / crear.blade.php
+- admin form / edit.blade.php
+- admin form / formulario.blade.php
+- admin form / tablaIncripciones.blade.php
+
+Routes creados o modificados 
+- web.php
