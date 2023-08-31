@@ -15,6 +15,11 @@
                 {{ Session::get('error')}}
             </div>
         @endif
+        @if (Session::get('success'))
+            <div class="alert alert-success mt-4">
+                {{ Session::get('success')}}
+            </div>
+        @endif
         <form action="{{ route('guardarTurno') }}" method="POST">
             @csrf
             <div class="row justify-content-center">

@@ -141,9 +141,12 @@ class HorariosController extends Controller
         // Actualizar las horas seleccionadas
         $horasSeleccionadas = Inscripcion::where('fecha', $fecha)->pluck('hora');
 
-        return "Turno guardado correctamente.";
+      //  return "Turno guardado correctamente.";
+
+        Session::flash('success', '¡El turno se ha enviado correctamente!');
+        return redirect()->route('inscribirse');
+
+
     }
 
-
 }
-
